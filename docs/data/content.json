@@ -1,0 +1,257 @@
+{
+  "site": {
+    "name": "Harmonia",
+    "developer": "JPHON",
+    "tagline": "Free number chart app for worship teams",
+    "motto": "ONE CHART. ONE KEY. ONE TEAM.",
+    "meta_description": "Harmonia is a free Android number chart app by JPHON. Write a song once in numbers, change key with one tap, and keep every phone in your worship team on the same chart, with no internet needed.",
+    "jphon_url": "https://jijialbor.github.io/jphon/",
+    "contact_email": "",
+    "facebook_url": ""
+  },
+  "images": {
+    "logo": "assets/img/logo-dark.png",
+    "hero": "",
+    "hero_2": ""
+  },
+  "home": {
+    "hero_title": "PLAY AS ONE.",
+    "hero_subtitle": "Every musician on the same song, in the same key, at the same moment.",
+    "hero_description": "Harmonia is a free number chart app for worship teams and bands. Write a song once in numbers, change to any key with one tap, and keep every phone on the same chart over a hotspot or Wi-Fi, with no internet or account needed.",
+    "hero_story": "Harmonia started from a simple need on our own worship team: everyone reading the same chart, in the same key, without passing papers around or shouting key changes across the stage.\n\nIt is free to download and free to use. If Harmonia has helped your team, you may consider supporting me through a voluntary donation to help with my ongoing hospital bills and the continued development of this project.",
+    "cta_download": "DOWNLOAD FOR ANDROID",
+    "cta_support": "SUPPORT THIS CAUSE",
+    "hero_note": "Free to download. Free to use. No account, no internet, no ads.",
+    "about_title": "THE NUMBER SYSTEM, BUILT FOR THE WHOLE TEAM.",
+    "about_text": "Musicians learn songs as numbers: 1, 4, 5, 6. Once you know the numbers, you can play in any key.\n\nHarmonia puts the numbers front and centre, with the chord name small above each one. Change the key and the chord names change for you, while the numbers stay the same.\n\nOne main phone chooses the song and key, and every team member's phone follows along. No more paper charts, no more \"what key are we in?\"",
+    "highlights": [
+      {
+        "title": "NUMBERS FIRST",
+        "text": "Big, easy-to-read numbers with the chord name above. Learn the song once and play it in any key."
+      },
+      {
+        "title": "THE WHOLE TEAM IN SYNC",
+        "text": "The main phone picks the song and key, and every phone on the team shows the same chart within about a second."
+      },
+      {
+        "title": "FREE FOR EVERYONE",
+        "text": "No subscription, no account and no internet needed. The goal is to make good tools accessible to every team."
+      }
+    ],
+    "steps_title": "FROM ONE PHONE TO THE WHOLE BAND IN THREE STEPS.",
+    "steps": [
+      {
+        "icon": "offline",
+        "title": "Share a network",
+        "text": "Turn on the main phone's hotspot, or put everyone on the church Wi-Fi. No internet connection is needed."
+      },
+      {
+        "icon": "qr",
+        "title": "Join by QR code",
+        "text": "The main phone taps Host and shows a QR code. Team members tap Join and scan it once."
+      },
+      {
+        "icon": "sync",
+        "title": "Play together",
+        "text": "Open a song or change the key on the main phone, and every phone on the team follows instantly."
+      }
+    ],
+    "steps_note": "Tip: some guest Wi-Fi networks block phones from talking to each other. If that happens, use the main phone's hotspot.",
+    "features_title": "EVERYTHING YOUR TEAM NEEDS FROM REHEARSAL TO SUNDAY.",
+    "features_cta": "Learn how to use Harmonia",
+    "mission_title": "WHY WE CREATED HARMONIA"
+  },
+  "features": [
+    {
+      "published": true,
+      "icon": "numbers",
+      "title": "Number Charts",
+      "text": "Large numbers with small chord names above, grouped by Verse, Chorus, Bridge and more.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "key",
+      "title": "One-Tap Key Change",
+      "text": "Pick any of the 12 keys. Chord names update with correct spelling while the numbers stay the same.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "sync",
+      "title": "Team Sync",
+      "text": "The main phone hosts and every team phone shows the same song and key, live, over Wi-Fi or hotspot.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "offline",
+      "title": "No Internet Needed",
+      "text": "Works on a local hotspot or Wi-Fi. If a phone drops off, it keeps the chart and reconnects on its own.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "instruments",
+      "title": "A View for Every Player",
+      "text": "Vocals see lyrics, guitar, bass and keys see chords, and drums see the beat.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "playlist",
+      "title": "Songs and Playlists",
+      "text": "Save your song library, build a playlist for each service, and share the library with your team.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "metronome",
+      "title": "Shared Metronome",
+      "text": "Keep the whole team on the same beat, with a voice that calls out each part of the song.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "tuner",
+      "title": "Tuner",
+      "text": "A built-in tuner that listens through the phone's microphone.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "family",
+      "title": "Chords and Scales",
+      "text": "See family chords, cousins and the pentatonic scale for any key, on a guitar fretboard or keyboard.",
+      "image": ""
+    },
+    {
+      "published": true,
+      "icon": "guide",
+      "title": "Chord & Scale Handbook",
+      "text": "The full handbook built into the app, from the basics to all 12 keys, so your team can learn as you play.",
+      "image": ""
+    }
+  ],
+  "mission": {
+    "mission": "To give worship teams and bands a simple, free way to read the same chart, in the same key, together, so they can focus on leading worship instead of chasing chords.",
+    "vision": "To see every worship team, big or small, equipped to play confidently in any key, regardless of budget or internet access.",
+    "values": [
+      {
+        "title": "Accessibility",
+        "text": "Good tools should not depend on a large budget or a strong internet signal."
+      },
+      {
+        "title": "Unity",
+        "text": "A team plays best when everyone is on the same page, literally."
+      },
+      {
+        "title": "Learning",
+        "text": "Numbers and the built-in handbook help musicians grow, not just follow."
+      },
+      {
+        "title": "Correctness",
+        "text": "Every chord name and key spelling follows standard music theory."
+      }
+    ]
+  },
+  "support": {
+    "title": "HELP KEEP THIS PROJECT GOING.",
+    "text": "Harmonia is offered free of charge. Developing and maintaining an app takes time, effort, and resources.\n\nIf Harmonia has helped your worship team or band, you can help me continue this journey through a voluntary donation.\n\nYour generosity will also help me with my ongoing hospital expenses.\n\nWhether big or small, every contribution is sincerely appreciated.",
+    "cta": "SUPPORT HARMONIA",
+    "note": "No donation is required. Harmonia will remain free to use."
+  },
+  "tutorials": {
+    "title": "LEARN HARMONIA.",
+    "intro": "Video guides to help you and your team get comfortable with Harmonia, from installing the app to leading a full service in sync.",
+    "categories": [
+      {
+        "name": "Getting Started"
+      },
+      {
+        "name": "Installing the APK"
+      },
+      {
+        "name": "Adding Songs in Numbers"
+      },
+      {
+        "name": "Changing Keys"
+      },
+      {
+        "name": "Hosting and Joining a Team"
+      },
+      {
+        "name": "Playlists and Song Library"
+      },
+      {
+        "name": "Metronome and Voice Cues"
+      },
+      {
+        "name": "Tuner"
+      },
+      {
+        "name": "Chords, Scales and the Handbook"
+      },
+      {
+        "name": "Troubleshooting"
+      }
+    ],
+    "items": []
+  },
+  "download": {
+    "title": "GET HARMONIA FOR FREE.",
+    "description": "Install Harmonia on every phone in your team. Download the latest APK and follow the installation steps below.",
+    "notice": "Harmonia is free software. No payment or donation is required to download or use it.",
+    "platform_note": "For Android 7.0 or newer. Installed directly as an APK (not from the Play Store).",
+    "ios_note": "An iPhone version of Harmonia is planned for a later release.",
+    "requirements": "Android 7.0 (Nougat) or newer\nAbout 100 MB of free storage\nWi-Fi, or a phone that can turn on a mobile hotspot (for team sync)\nMicrophone access for the tuner (optional)\nCamera access to scan the team QR code (optional, you can type the address instead)",
+    "install_steps": "Download the APK file using the button above, or send it to each phone by USB, Google Drive or Messenger.\nOpen the downloaded file on the phone.\nIf Android warns about unknown apps, allow installs from the app you opened the file with.\nGoogle Play Protect may show a warning because the app is not from the Play Store. Tap \"Install anyway\".\nOpen Harmonia, add your first song, and you are ready to play.",
+    "releases": [
+      {
+        "version": "1.0.9",
+        "date": "2026-11-17",
+        "size": "27 MB",
+        "url": "",
+        "notes": ""
+      }
+    ]
+  },
+  "about": {
+    "title": "THE STORY BEHIND HARMONIA.",
+    "intro": "Harmonia was created to help worship teams play together using the number system, on the phones they already carry.",
+    "story": "Harmonia started as a tool for a church worship team. The team had a handbook for learning chords and keys with numbers, but on Sunday everyone still needed the same chart, in the same key, at the same time.\n\nSo the handbook was rebuilt inside an app, with its music theory checked and corrected, and a way for one phone to lead the whole team. Sharing it for free is my way of serving while I keep building, even through my own ongoing hospital expenses.",
+    "why": "Many worship teams are volunteers with mixed experience. Paper charts get lost, key changes get missed, and not every venue has a reliable internet connection. Harmonia was built to work on any Android phone, on a local network, with no account and no cost.",
+    "problems": "Team members playing from different charts or in different keys.\nRewriting chord charts every time a song is moved to a new key.\nChart apps that need internet, an account or a monthly subscription.\nNew musicians who want to learn the number system and chord shapes.",
+    "philosophy": "Keep it simple, keep it correct, and keep it free. Every chord name in the app follows standard music theory, and every update is guided by what real worship teams need on a Sunday.",
+    "future": "Keep improving reliability on more phone models, publish video tutorials, and bring Harmonia to iPhone so every member of the team can join.",
+    "developer_text": "Harmonia is an independent app developed under JPHON, and part of the JPHON Production Suite. It is continuously being improved through learning, testing with real teams, feedback, and the support of its community.\n\nThis is not a perfect app, and there is always room to improve. If you discover a bug, have a suggestion, or want to request a feature, I would be happy to hear from you."
+  },
+  "donate": {
+    "title": "YOUR SUPPORT MAKES A DIFFERENCE.",
+    "subtitle": "Help me continue creating free tools for worship teams while supporting me through my ongoing hospital expenses.",
+    "message": "First of all, thank you for taking the time to visit this page.\n\nHarmonia was created because I wanted to help worship teams play together with confidence, without needing expensive apps, subscriptions, or an internet connection.\n\nI decided to share this app for free because I believe useful tools should be accessible to those who need them.\n\nBehind this project, however, is a personal journey. I am also dealing with ongoing hospital expenses, and maintaining and developing this app requires time, effort, and resources.\n\nIf you have found Harmonia useful, and if you are willing and able, I would sincerely appreciate any voluntary donation.\n\nYour support will help me with my hospital bills and encourage me to continue developing free tools that can benefit more worship teams, churches and ministries.\n\nThank you for your kindness, prayers, encouragement, and support.",
+    "thanks": "Every contribution, every prayer, and every word of encouragement means a lot. Thank you for being part of this journey.",
+    "gcash": {
+      "enabled": true,
+      "holder": "JEPHONE JEZEEL ALBOR",
+      "number": "",
+      "qr": "assets/uploads/gcash-qr.png",
+      "logo": "assets/uploads/gcash-logo.png"
+    },
+    "maya": {
+      "enabled": true,
+      "holder": "JEPHONE JEZEEL ALBOR",
+      "number": "",
+      "qr": "assets/uploads/maya-qr.png",
+      "logo": "assets/uploads/maya-logo.png"
+    },
+    "bank": {
+      "enabled": true,
+      "bank_name": "GoTyme Bank",
+      "holder": "JEPHONE JEZEEL ALBOR",
+      "number": "",
+      "qr": "assets/uploads/bank-qr.png",
+      "logo": "assets/uploads/bank-logo.png"
+    }
+  }
+}

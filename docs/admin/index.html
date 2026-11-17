@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin — Harmonia Website</title>
+<link rel="icon" href="../assets/img/favicon.png">
+<link rel="stylesheet" href="admin.css">
+<script src="admin.js" defer></script>
+</head>
+<body>
+
+<!-- CONNECT SCREEN -->
+<section id="connect" class="connect" hidden>
+  <form id="connect-form" class="connect-card" autocomplete="off">
+    <img src="../assets/img/logo-dark.png" alt="" width="56" height="56" class="connect-logo">
+    <h1>Harmonia Admin</h1>
+    <p class="muted">Changes are saved straight to the website's GitHub repository. Only someone with a GitHub access token for that repository can make changes.</p>
+
+    <div class="row2">
+      <label>GitHub owner<input name="owner" required value="jijialbor"></label>
+      <label>Repository<input name="repo" required value="Harmonia"></label>
+    </div>
+    <div class="row2">
+      <label>Branch<input name="branch" required value="main"></label>
+      <label>Website folder in repo<input name="folder" value="docs" placeholder="leave empty if root"></label>
+    </div>
+    <label>Access token
+      <input name="token" type="password" required placeholder="github_pat_…" autocomplete="off" spellcheck="false">
+    </label>
+    <label class="check"><input type="checkbox" name="remember"> Remember on this device (only on your own computer)</label>
+    <p class="error" id="connect-error" role="alert"></p>
+    <button class="btn btn-primary btn-block" type="submit">Connect</button>
+    <details class="help">
+      <summary>How do I get an access token?</summary>
+      <ol>
+        <li>On GitHub, open <b>Settings → Developer settings → Personal access tokens → Fine-grained tokens</b>.</li>
+        <li>Click <b>Generate new token</b>. Under <b>Repository access</b>, choose <b>Only select repositories</b> and pick this website's repository.</li>
+        <li>Under <b>Permissions → Repository permissions</b>, set <b>Contents</b> to <b>Read and write</b>. Nothing else is needed.</li>
+        <li>Generate, copy the token, and paste it here. Never share it or put it inside the website files.</li>
+      </ol>
+    </details>
+  </form>
+</section>
+
+<!-- EDITOR -->
+<div id="app" class="app" hidden>
+  <aside class="sidebar">
+    <div class="side-brand"><img src="../assets/img/logo-dark.png" alt="" width="32" height="32"><span>Harmonia Admin</span></div>
+    <nav id="tabs" class="tabs" aria-label="Sections"></nav>
+    <div class="side-foot">
+      <a id="view-site" class="side-link" href="../index.html" target="_blank" rel="noopener">View website ↗</a>
+      <button id="logout" class="side-link" type="button">Sign out</button>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div>
+        <h1 id="tab-title">Dashboard</h1>
+        <p id="repo-label" class="muted small"></p>
+      </div>
+      <div class="top-actions">
+        <span id="dirty" class="dirty" hidden>Unsaved changes</span>
+        <button id="save" class="btn btn-primary" type="button" disabled>Save &amp; publish</button>
+      </div>
+    </header>
+    <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+    <main id="editor" class="editor"></main>
+  </div>
+</div>
+
+<div id="loading" class="loading"><span class="spinner"></span></div>
+</body>
+</html>

@@ -11,8 +11,8 @@
   },
   "images": {
     "logo": "assets/img/logo-dark.png",
-    "hero": "",
-    "hero_2": ""
+    "hero": "assets/uploads/hero-main.jpg",
+    "hero_2": "assets/uploads/hero-team.jpg"
   },
   "home": {
     "hero_title": "PLAY AS ONE.",

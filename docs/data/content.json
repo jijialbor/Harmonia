@@ -203,7 +203,7 @@
     "description": "Install Harmonia on every phone in your team. Download the latest APK and follow the installation steps below.",
     "notice": "Harmonia is free software. No payment or donation is required to download or use it.",
     "platform_note": "For Android 7.0 or newer. Installed directly as an APK (not from the Play Store).",
-    "ios_note": "An iPhone version of Harmonia is planned for a later release.",
+    "ios_note": "An iOS version of Harmonia is planned for a later release.",
     "requirements": "Android 7.0 (Nougat) or newer\nAbout 100 MB of free storage\nWi-Fi, or a phone that can turn on a mobile hotspot (for team sync)\nMicrophone access for the tuner (optional)\nCamera access to scan the team QR code (optional, you can type the address instead)",
     "install_steps": "Download the APK file using the button above, or send it to each phone by USB, Google Drive or Messenger.\nOpen the downloaded file on the phone.\nIf Android warns about unknown apps, allow installs from the app you opened the file with.\nGoogle Play Protect may show a warning because the app is not from the Play Store. Tap \"Install anyway\".\nOpen Harmonia, add your first song, and you are ready to play.",
     "releases": [

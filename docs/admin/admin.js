@@ -118,7 +118,7 @@
         { title: 'Download page', fields: [
           F('download.title', 'Headline'), F('download.description', 'Description', 'textarea'), F('download.notice', 'Free software notice', 'textarea'),
           F('download.platform_note', 'Android note (under the download button)', 'text', { hint: 'Leave empty to hide.' }),
-          F('download.ios_note', 'iPhone "Coming soon" text', 'textarea', { hint: 'Leave empty to hide the iPhone card (e.g. once an iPhone version is released).' }),
+          F('download.ios_note', 'iOS "Coming soon" text', 'textarea', { hint: 'Leave empty to hide the iOS card (e.g. once an iOS version is released).' }),
           F('download.requirements', 'System requirements', 'textarea', { hint: 'One per line. The section is hidden while empty.' }),
           F('download.install_steps', 'Installation instructions', 'textarea', { hint: 'One step per line.' }),
         ] },

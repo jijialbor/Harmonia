@@ -313,7 +313,7 @@
         <div class="download-grid">
           <article class="download-card reveal">${main}</article>
           <div class="download-side">
-            ${filled(d.ios_note) ? `<article class="card platform-card reveal">${icon('apple')}<div><h2 class="h4">iPhone <em class="badge badge-soft">Coming soon</em></h2><p class="small muted">${esc(d.ios_note)}</p></div></article>` : ''}
+            ${filled(d.ios_note) ? `<article class="card platform-card reveal">${icon('apple')}<div><h2 class="h4">iOS <em class="badge badge-soft">Coming soon</em></h2><p class="small muted">${esc(d.ios_note)}</p></div></article>` : ''}
             ${req.length ? `<article class="card reveal"><h2 class="h4">System requirements</h2><ul class="plain-list">${req.map((r) => `<li>${esc(r)}</li>`).join('')}</ul></article>` : ''}
             ${steps.length ? `<article class="card reveal"><h2 class="h4">Installation instructions</h2><ol class="steps">${steps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
               <p class="small muted mt">Need help? See the <a href="tutorial.html">tutorials</a>.</p></article>` : ''}

@@ -208,6 +208,13 @@
     "install_steps": "Download the APK file using the button above, or send it to each phone by USB, Google Drive or Messenger.\nOpen the downloaded file on the phone.\nIf Android warns about unknown apps, allow installs from the app you opened the file with.\nGoogle Play Protect may show a warning because the app is not from the Play Store. Tap \"Install anyway\".\nOpen Harmonia, add your first song, and you are ready to play.",
     "releases": [
       {
+        "version": "1.0.16",
+        "date": "2026-11-20",
+        "size": "29 MB",
+        "url": "https://github.com/jijialbor/Harmonia/releases/download/v1.0.16/Harmonia.apk",
+        "notes": ""
+      },
+      {
         "version": "1.0.15",
         "date": "2026-11-19",
         "size": "29 MB",
@@ -219,13 +226,6 @@
         "date": "2026-11-19",
         "size": "27 MB",
         "url": "https://github.com/jijialbor/Harmonia/releases/download/v1.0.14/Harmonia.apk",
-        "notes": ""
-      },
-      {
-        "version": "1.0.12",
-        "date": "2026-11-19",
-        "size": "27 MB",
-        "url": "https://github.com/jijialbor/Harmonia/releases/download/v1.0.12/Harmonia.apk",
         "notes": ""
       }
     ]
